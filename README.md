@@ -68,7 +68,7 @@ Este programa consiste en un modulo para leer y gestionar un dataset de cancione
 ### Opción 2: El usuario ingresa el ID de una canción, y el programa muestra la información de la canción si se encuentra en el mapa.
 2)Buscar por ID
 
-     Ingrese su opción: 2  
+    Ingrese su opción: 2  
     Ingrese el ID de la canción a buscar: 1  
     ID: 1  
     Título canción: Song Title  
