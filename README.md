@@ -1,8 +1,8 @@
-#Spotifind
-##Descripcion
+# Spotifind
+## Descripcion
 Este programa consiste en un modulo para leer y gestionar un dataset de canciones en un archivo csv, cumple con distintas funcionalidades a traves de una serie de 7 opciones para el usuario, la primera de ellas es cargar las canciones, sigue  la busqueda de canciones en estas segun por genero, artista o tempo, tambien cuenta con la funcionalidad de crear una lista de reproduccion nombrada por el ususario, a la cual se le suman dos opciones mas para agregar canciones a la lista y la otra para mostrar las canciones que conforman la lista. 
 
-##Requisitos Previos
+## Requisitos Previos
 - Tener instalado [Visual Studio Code](https://code.visualstudio.com/).
 - Instalar la extensión **C/C++** (Microsoft).
 - Tener instalado un compilador de C (como **gcc**). Si estás en Windows, se recomienda instalar [MinGW](https://www.mingw-w64.org/) o utilizar el entorno [WSL](https://learn.microsoft.com/en-us/windows/wsl/).
@@ -39,13 +39,13 @@ Este programa consiste en un modulo para leer y gestionar un dataset de cancione
    git clone https://github.com/VicenteGonzalez14/Sistema-gesti-n-tickets.git
 
 ## FUNCIONALIDADES
-1.Carga un conjunto de canciones desde un archivo CSV (song_dataset_.csv) y las almacena en mapas según diferentes criterios: ID, Tempo y Artista.
-2.Permite buscar canciones a través de su ID en el mapa, mostrando los detalles completos de la canción si se encuentra.
-3.Permite realizar una búsqueda por el tempo de las canciones, filtrando por un rango de tempo definido por el usuario (por ejemplo, lento, moderado, rápido), luego muestra las canciones que caen dentro del rango de tempo especificado.}
-4.Permite realizar una búsqueda de canciones por el nombre del artista, muestra todas las canciones del artista seleccionado, presentando información detallada.
-5.Permite crear una nueva lista de reproducción, asignándole un nombre que el usuario proporciona, verifica si ya existe una lista con el mismo nombre, y si es así, evita duplicados, la lista se inicializa vacia.
-6.Las canciones pueden ser agregadas a las listas de reproducción, verificando que el ID de la canción exista antes de agregarla a la lista seleccionada, Las canciones se insertan en las listas de reproducción correspondientes.}
-7.Muestra todas las canciones de una lista de reproducción específica, presentando información detallada de cada una (ID, título, artista, álbum, género y tempo).
+1. Carga un conjunto de canciones desde un archivo CSV (song_dataset_.csv) y las almacena en mapas según diferentes criterios: ID, Tempo y Artista.
+2. Permite buscar canciones a través de su ID en el mapa, mostrando los detalles completos de la canción si se encuentra.
+3. Permite realizar una búsqueda por el tempo de las canciones, filtrando por un rango de tempo definido por el usuario (por ejemplo, lento, moderado, rápido), luego muestra las canciones que caen dentro del rango de tempo especificado.}
+4. Permite realizar una búsqueda de canciones por el nombre del artista, muestra todas las canciones del artista seleccionado, presentando información detallada.
+5. Permite crear una nueva lista de reproducción, asignándole un nombre que el usuario proporciona, verifica si ya existe una lista con el mismo nombre, y si es así, evita duplicados, la lista se inicializa vacia.
+6. Las canciones pueden ser agregadas a las listas de reproducción, verificando que el ID de la canción exista antes de agregarla a la lista seleccionada, Las canciones se insertan en las listas de reproducción correspondientes.}
+7. Muestra todas las canciones de una lista de reproducción específica, presentando información detallada de cada una (ID, título, artista, álbum, género y tempo).
 
 ##Problemas conocidos:
 1. El programa funciona correctamente, pero se podria considerar la limitacion que tiene al formato de archivo csv, con la misma estructura para que no falle la funcion para leer el dataset de canciones.
