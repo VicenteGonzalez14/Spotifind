@@ -47,12 +47,12 @@ Este programa consiste en un modulo para leer y gestionar un dataset de cancione
 6. Las canciones pueden ser agregadas a las listas de reproducción, verificando que el ID de la canción exista antes de agregarla a la lista seleccionada, Las canciones se insertan en las listas de reproducción correspondientes.}
 7. Muestra todas las canciones de una lista de reproducción específica, presentando información detallada de cada una (ID, título, artista, álbum, género y tempo).
 
-##Problemas conocidos:
+## Problemas conocidos:
 1. El programa funciona correctamente, pero se podria considerar la limitacion que tiene al formato de archivo csv, con la misma estructura para que no falle la funcion para leer el dataset de canciones.
 
-##Ejemplo de uso: 
+## Ejemplo de uso: 
 
-###Opción 1: El usuario carga un archivo CSV que contiene las canciones, y el programa procesa e ingresa los datos en los mapas correspondientes (por ID, tempo y artista).
+### Opción 1: El usuario carga un archivo CSV que contiene las canciones, y el programa procesa e ingresa los datos en los mapas correspondientes (por ID, tempo y artista).
 1)Cargar canciones.
 
     Cargar canciones
@@ -65,7 +65,7 @@ Este programa consiste en un modulo para leer y gestionar un dataset de cancione
     Canciones cargadas exitosamente desde el archivo CSV.
     Presione cualquier tecla para continuar...
 
-###Opción 2: El usuario ingresa el ID de una canción, y el programa muestra la información de la canción si se encuentra en el mapa.
+### Opción 2: El usuario ingresa el ID de una canción, y el programa muestra la información de la canción si se encuentra en el mapa.
 2)Buscar por ID
 
      Ingrese su opción: 2  
@@ -79,7 +79,7 @@ Este programa consiste en un modulo para leer y gestionar un dataset de cancione
     -------------------------------  
     Presione cualquier tecla para continuar...
 
-###Opción 3: El usuario ingresa el nombre de una nueva lista de reproducción, y el programa crea una lista vacía para agregar canciones posteriormente.
+### Opción 3: El usuario ingresa el nombre de una nueva lista de reproducción, y el programa crea una lista vacía para agregar canciones posteriormente.
 3)Buscar por artista
 
     Ingrese su opción: 4  
@@ -93,7 +93,7 @@ Este programa consiste en un modulo para leer y gestionar un dataset de cancione
     -------------------------------  
     Presione cualquier tecla para continuar...
 
-###Opción 4: El usuario ingresa un rango de tempo (mínimo y máximo), y el programa muestra todas las canciones que caen dentro de ese rango.
+### Opción 4: El usuario ingresa un rango de tempo (mínimo y máximo), y el programa muestra todas las canciones que caen dentro de ese rango.
 3)Buscar por tempo
 
       Ingrese su opción: 3  
@@ -108,7 +108,7 @@ Este programa consiste en un modulo para leer y gestionar un dataset de cancione
     -------------------------------  
     Presione cualquier tecla para continuar...
 
-###Opción 5: El usuario ingresa el nombre de una nueva lista de reproducción, y el programa crea una lista vacía para agregar canciones posteriormente.
+### Opción 5: El usuario ingresa el nombre de una nueva lista de reproducción, y el programa crea una lista vacía para agregar canciones posteriormente.
 5)Crear lista de reproducción
 
     Ingrese su opción: 5  
@@ -116,7 +116,7 @@ Este programa consiste en un modulo para leer y gestionar un dataset de cancione
     Lista de reproducción 'Mi lista' creada exitosamente.  
     Presione cualquier tecla para continuar...
 
-###Opción 6: El usuario ingresa el nombre de una lista de reproducción existente y el ID de una canción para agregarla a la lista.
+### Opción 6: El usuario ingresa el nombre de una lista de reproducción existente y el ID de una canción para agregarla a la lista.
 6)Agregar canción a lista de reproducción
 
     Ingrese su opción: 6  
@@ -124,7 +124,7 @@ Este programa consiste en un modulo para leer y gestionar un dataset de cancione
     Ingrese el ID de la canción a agregar: 1  
     Canción 'Song Title' agregada a la lista 'Mi lista'.  
     Presione cualquier tecla para continuar...
-###Opción 7: El usuario ingresa el nombre de una lista de reproducción, y el programa muestra todas las canciones de esa lista.
+### Opción 7: El usuario ingresa el nombre de una lista de reproducción, y el programa muestra todas las canciones de esa lista.
 7)Mostrar canciones de una lista de reproducción
 
     Ingrese su opción: 7  
@@ -138,18 +138,18 @@ Este programa consiste en un modulo para leer y gestionar un dataset de cancione
     Tempo: 120.0  
     -------------------------------  
     Presione cualquier tecla para continuar...  
-###Opción 8: El usuario elige esta opción para salir del programa.
+### Opción 8: El usuario elige esta opción para salir del programa.
 8)Salir
 
     Ingrese su opción: 8  
     Saliendo del sistema de búsqueda de canciones...  
 
-##Contribuciones
-###Mateo Moncada:
+## Contribuciones
+### Mateo Moncada:
 1. Desarrollo funciones para cargar canciones y guardarlas en mapas.
 2. Realizo pruebas en el programa para verificar el correcto funcionamiento de este. 
 3. Auto-evaluación: 3 (Aporte excelente).
-###Vicente Gonzalez: 
+### Vicente Gonzalez: 
 1. Desarrollo funciones de busqueda de cancinones a traves de mapas.
 2. Desarrollo funciones para implementar la lista de reproducción.
 3. Auto-evaluación: 3 (Aporte excelente).
